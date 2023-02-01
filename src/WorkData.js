@@ -112,19 +112,19 @@ const PortfolioData = [
     status: "Demo",
     statusNote: "Demo app hosted on Github",
   },
-  {
-    id: 8,
-    created: new Date(2017, 1, 10).toLocaleDateString(),
-    title: "Sticky nav and footer toggle",
-    image: stickynav,
-    description:
-      "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s ",
-    frontendTechs: ["JavaScript", "CSS", "HTML"],
-    backendTechs: [],
-    url: "https://mustafa-haidari.github.io/stickyNav-footerToggle/",
-    status: "Demo",
-    statusNote: "Demo app hosted on Github",
-  },
+  // {
+  //   id: 8,
+  //   created: new Date(2017, 1, 10).toLocaleDateString(),
+  //   title: "Sticky nav and footer toggle",
+  //   image: stickynav,
+  //   description:
+  //     "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s ",
+  //   frontendTechs: ["JavaScript", "CSS", "HTML"],
+  //   backendTechs: [],
+  //   url: "https://mustafa-haidari.github.io/stickyNav-footerToggle/",
+  //   status: "Demo",
+  //   statusNote: "Demo app hosted on Github",
+  // },
   // {
   //   id: 9,
   //   created: new Date(2018, 9, 2).toLocaleDateString(),
