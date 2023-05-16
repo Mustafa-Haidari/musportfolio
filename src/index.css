@@ -2,29 +2,39 @@
 @tailwind components;
 @tailwind utilities;
 
-@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,400;0,500;0,700;0,800;1,300;1,500;1,700&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,400;0,500;0,700;0,800;1,300;1,500;1,700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Satisfy&display=swap");
 
 @layer base {
-    body {
-        @apply font-[Raleway];
-    }
-    li {
-        @apply px-4;
-        @apply cursor-pointer
-    }
+  html {
+    font-family: "Raleway", sans-serif;
+  }
+  li {
+    @apply px-4;
+  }
+  li.nav-link {
+    @apply cursor-pointer;
+    @apply hover:scale-105 duration-200;
+  }
+  .menu-tiles {
+    @apply bg-sky-800 h-full w-full cursor-pointer hover:bg-sky-700 py-4 px-4 rounded-md shadow-xl text-center font-bold text-white;
+  }
+  .skills-item {
+    @apply shadow-md shadow-[#040c16] hover:scale-110 duration-500 bg-teal-700 rounded-md pt-4;
+  }
 }
 
 .content-div {
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
-    height: 250px;;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 250px;
 }
 
 .content-div:hover {
-    background-image: linear-gradient(
-        to right,
-        rgba(112,157, 255, 0.8),
-        hsla(242, 74%, 61%, 0.8)
-    ) !important;
+  background-image: linear-gradient(
+    to right,
+    rgba(112, 157, 255, 0.8),
+    hsla(242, 74%, 61%, 0.8)
+  ) !important;
 }

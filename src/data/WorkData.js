@@ -1,9 +1,10 @@
-import slider from "../src/assets/projects/Slider.png";
-import placeholder from "../src/assets/projects/imgplaceholder.png";
-import colorgame from "../src/assets/projects/colorgame.png";
-import filterjs from "../src/assets/projects/filterjs.png";
-import stickynav from "../src/assets/projects/stickynav.png";
-import kaakah from "../src/assets/projects/kaakah.png";
+import slider from "../../src/assets/projects/Slider.png";
+import placeholder from "../../src/assets/projects/imgplaceholder.png";
+import colorgame from "../../src/assets/projects/colorgame.png";
+import filterjs from "../../src/assets/projects/filterjs.png";
+import stickynav from "../../src/assets/projects/stickynav.png";
+import kaakah from "../../src/assets/projects/kaakah.png";
+import kaakahArchitecture from "../../src/assets/projects/kk-architecture.png";
 
 const PortfolioData = [
   {
@@ -12,12 +13,15 @@ const PortfolioData = [
     title: "Kaakah Topup",
     image: kaakah,
     description:
-      "Kaakah is a mobile topup service that allows you to send topups/credits to your friends and family in more than 150 countries worldwide.",
+      "Kaakah is a mobile topup service that allows you to send topups (phone credit) to your friends and family in more than 150 countries worldwide.",
     frontendTechs: ["JavaScript", "React", "Bootstrap"],
     backendTechs: ["NodeJS", "Stripe", "Reloadly API"],
     url: "https://kaakah.com/",
     status: "Live",
     statusNote: "This app is live being used by the public",
+    projectReflection:
+      "This was a very cool and comprehensive project that thought so much about React and Node.",
+    architecture: kaakahArchitecture,
   },
   {
     id: 1,
@@ -32,6 +36,8 @@ const PortfolioData = [
     url: "https://mustafa-haidari.github.io/expense-tracker/",
     status: "Demo",
     statusNote: "Demo app hosted on Github",
+    projectReflection: "",
+    architecture: "",
   },
   {
     id: 2,
@@ -46,6 +52,8 @@ const PortfolioData = [
     url: "https://mustafa-haidari.github.io/task-assignment/",
     status: "Demo",
     statusNote: "Demo app hosted on Github",
+    projectReflection: "",
+    architecture: "",
   },
   {
     id: 3,
@@ -59,6 +67,8 @@ const PortfolioData = [
     url: "https://mustafa-haidari.github.io/weather-app/",
     status: "Demo",
     statusNote: "Demo app hosted on Github",
+    projectReflection: "",
+    architecture: "",
   },
   {
     id: 4,
@@ -72,6 +82,8 @@ const PortfolioData = [
     url: "https://mustafa-haidari.github.io/JS-filter-tool/",
     status: "Demo",
     statusNote: "Demo app hosted on Github",
+    projectReflection: "",
+    architecture: "",
   },
   {
     id: 5,
@@ -85,6 +97,8 @@ const PortfolioData = [
     url: "https://mustafa-haidari.github.io/tv-shows/",
     status: "Demo",
     statusNote: "Demo app hosted on Github",
+    projectReflection: "",
+    architecture: "",
   },
   {
     id: 6,
@@ -98,6 +112,8 @@ const PortfolioData = [
     url: "https://mustafa-haidari.github.io/calculator/",
     status: "Demo",
     statusNote: "Demo app hosted on Github",
+    projectReflection: "",
+    architecture: "",
   },
   {
     id: 7,
@@ -111,6 +127,8 @@ const PortfolioData = [
     url: "https://mustafa-haidari.github.io/ColorGame.github.io/",
     status: "Demo",
     statusNote: "Demo app hosted on Github",
+    projectReflection: "",
+    architecture: "",
   },
   // {
   //   id: 8,
